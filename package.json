@@ -1,0 +1,29 @@
+{
+  "name": "workers-cloud-multishop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "client": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.72",
+    "antd": "^4.7.3",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^3.0.0",
+    "koa": "^2.13.0",
+    "koa-session": "^6.1.0",
+    "next": "^9.5.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.0"
+  }
+}
